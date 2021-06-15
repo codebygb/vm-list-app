@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input {
+  margin: 1em;
+  width: 70vw;
+}
+
+.main-container {
+  display: grid;
+  height: calc(100vh - 32px);
+  grid-template-rows: auto 1fr;
+}
+
+.data-container-form {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newVMForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
