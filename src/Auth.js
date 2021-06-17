@@ -6,12 +6,10 @@ const Auth = () => {
   const [helperText, setHelperText] = useState({ error: null, text: null });
   const emailRef = useRef();
   const passwordRef = useRef();
-  console.log(helperText);
 
   const handleLogin = async (type) => {
     const email = emailRef.current?.value;
     const password = passwordRef.current?.value;
-    console.log(password, email, passwordRef);
 
     const { user, error } =
       type === "LOGIN"

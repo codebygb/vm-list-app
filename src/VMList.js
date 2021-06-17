@@ -41,7 +41,6 @@ export default function VMList({ session }) {
       }
 
       if (data) {
-        console.log(data);
         setData(data);
       }
     } catch (error) {
